@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleInheritance", "Mult
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchicalInheritance", "HierarchicalInheritance\HierarchicalInheritance.csproj", "{1A77A104-B635-4666-818A-BA83575A33CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomList", "RandomList\RandomList.csproj", "{5F6DDAF1-3D79-4805-B138-3DC3F63FDA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{AA406F4D-6793-47B1-BE1B-E6CA1CE159DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{1A77A104-B635-4666-818A-BA83575A33CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A77A104-B635-4666-818A-BA83575A33CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A77A104-B635-4666-818A-BA83575A33CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6DDAF1-3D79-4805-B138-3DC3F63FDA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6DDAF1-3D79-4805-B138-3DC3F63FDA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6DDAF1-3D79-4805-B138-3DC3F63FDA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6DDAF1-3D79-4805-B138-3DC3F63FDA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA406F4D-6793-47B1-BE1B-E6CA1CE159DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA406F4D-6793-47B1-BE1B-E6CA1CE159DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA406F4D-6793-47B1-BE1B-E6CA1CE159DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA406F4D-6793-47B1-BE1B-E6CA1CE159DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
