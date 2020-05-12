@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomList", "RandomList\Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{AA406F4D-6793-47B1-BE1B-E6CA1CE159DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop", "BookShop\BookShop.csproj", "{CDD3850C-3A60-4573-837B-E8186AA63F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mankind", "Mankind\Mankind.csproj", "{47F0050E-75EE-4884-B010-8D6312CA4BA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{AA406F4D-6793-47B1-BE1B-E6CA1CE159DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA406F4D-6793-47B1-BE1B-E6CA1CE159DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA406F4D-6793-47B1-BE1B-E6CA1CE159DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD3850C-3A60-4573-837B-E8186AA63F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD3850C-3A60-4573-837B-E8186AA63F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD3850C-3A60-4573-837B-E8186AA63F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD3850C-3A60-4573-837B-E8186AA63F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F0050E-75EE-4884-B010-8D6312CA4BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F0050E-75EE-4884-B010-8D6312CA4BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F0050E-75EE-4884-B010-8D6312CA4BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F0050E-75EE-4884-B010-8D6312CA4BA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
