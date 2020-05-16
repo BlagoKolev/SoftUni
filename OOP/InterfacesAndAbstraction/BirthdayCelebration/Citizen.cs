@@ -1,6 +1,6 @@
 ﻿namespace BirthdayCelebrations
 {
-    class Citizen : Unit, IIdentity, IId
+    public class Citizen : Unit, IIdentity, IId
     {
         private string id;
         private int age;
