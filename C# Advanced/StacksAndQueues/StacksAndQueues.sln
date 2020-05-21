@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SongQueue", "06.SongQueu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TruckTour", "07.TruckTour\07.TruckTour.csproj", "{AE48768D-438B-4E6B-A496-AFF6ED0F7FC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.KeyRevover", "11.KeyRevover\11.KeyRevover.csproj", "{18A13E7F-D6F0-42FA-93D7-0D36FAE4F7E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AE48768D-438B-4E6B-A496-AFF6ED0F7FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE48768D-438B-4E6B-A496-AFF6ED0F7FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE48768D-438B-4E6B-A496-AFF6ED0F7FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A13E7F-D6F0-42FA-93D7-0D36FAE4F7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A13E7F-D6F0-42FA-93D7-0D36FAE4F7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A13E7F-D6F0-42FA-93D7-0D36FAE4F7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A13E7F-D6F0-42FA-93D7-0D36FAE4F7E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
