@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.CupsAndBottles", "12.Cup
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SimpleTextEditor", "09.SimpleTextEditor\09.SimpleTextEditor.csproj", "{0D214220-C95A-480A-B0D6-2E4C0B1B4CDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BalancedParentheses", "08.BalancedParentheses\08.BalancedParentheses.csproj", "{1258925B-F020-42D6-8363-4F04F5B2326A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{0D214220-C95A-480A-B0D6-2E4C0B1B4CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D214220-C95A-480A-B0D6-2E4C0B1B4CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D214220-C95A-480A-B0D6-2E4C0B1B4CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1258925B-F020-42D6-8363-4F04F5B2326A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1258925B-F020-42D6-8363-4F04F5B2326A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1258925B-F020-42D6-8363-4F04F5B2326A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1258925B-F020-42D6-8363-4F04F5B2326A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
