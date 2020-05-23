@@ -17,7 +17,7 @@ namespace _04.MatrixShuffling
 
             for (int row = 0; row < rows; row++)
             {
-                var input = Console.ReadLine().Split();
+                var input = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
                 for (int col = 0; col < cols; col++)
                 {
@@ -27,7 +27,7 @@ namespace _04.MatrixShuffling
 
             while (true)
             {
-                var command = Console.ReadLine().Split();
+                var command = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
                 if (command[0] == "END")
                 {
@@ -81,7 +81,7 @@ namespace _04.MatrixShuffling
         {
             var isValid = true;
 
-            if (command[0] != "swap" && command.Length != 5)
+            if (command[0] != "swap" || command.Length != 5)
             {
                 isValid = false;
             }
