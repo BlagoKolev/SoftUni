@@ -12,6 +12,11 @@ namespace _08.BalancedParentheses
             var input = Console.ReadLine();
             var myStack = new Stack<char>();
 
+            if (input.Length %2 != 0)
+            {
+                Console.WriteLine("NO");
+                return;
+            }
 
             for (int i = 0; i < input.Length; i++)
             {
@@ -27,6 +32,10 @@ namespace _08.BalancedParentheses
                         if (myStack.Pop() == '(')
                         {
                             continue;
+                        }
+                        else if (true)
+                        {
+
                         }
                         else
                         {
