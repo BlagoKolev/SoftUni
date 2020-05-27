@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.UniqueUsernames", "01.Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PeriodicTable", "03.PeriodicTable\03.PeriodicTable.csproj", "{3024CB78-4FDE-4BB3-8932-2B1192233BCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.EvenTimes", "04.EvenTimes\04.EvenTimes.csproj", "{87F9FE11-E20E-48A6-8708-915D0015635C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3024CB78-4FDE-4BB3-8932-2B1192233BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3024CB78-4FDE-4BB3-8932-2B1192233BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3024CB78-4FDE-4BB3-8932-2B1192233BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F9FE11-E20E-48A6-8708-915D0015635C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F9FE11-E20E-48A6-8708-915D0015635C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F9FE11-E20E-48A6-8708-915D0015635C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F9FE11-E20E-48A6-8708-915D0015635C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
