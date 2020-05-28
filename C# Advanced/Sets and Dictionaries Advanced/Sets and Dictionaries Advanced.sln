@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Wardrobe", "06.Wardrobe\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SetsOfElements", "02.SetsOfElements\02.SetsOfElements.csproj", "{C006F90F-BE93-4615-93A6-AD710D941F0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TheV-Logger", "07.TheV-Logger\07.TheV-Logger.csproj", "{0C1EB177-9844-4D5E-BFCF-4E8A07061B40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C006F90F-BE93-4615-93A6-AD710D941F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C006F90F-BE93-4615-93A6-AD710D941F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C006F90F-BE93-4615-93A6-AD710D941F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1EB177-9844-4D5E-BFCF-4E8A07061B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1EB177-9844-4D5E-BFCF-4E8A07061B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1EB177-9844-4D5E-BFCF-4E8A07061B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1EB177-9844-4D5E-BFCF-4E8A07061B40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
