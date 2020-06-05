@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CreatingConstructor", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.OldestFamilyMember", "03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{7A537BDB-847D-4A68-8552-22AE9E451DB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.OpinionPoll", "04.OpinionPoll\04.OpinionPoll.csproj", "{95B0F8E4-C990-4B77-A1BF-32B43C635409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7A537BDB-847D-4A68-8552-22AE9E451DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A537BDB-847D-4A68-8552-22AE9E451DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A537BDB-847D-4A68-8552-22AE9E451DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B0F8E4-C990-4B77-A1BF-32B43C635409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B0F8E4-C990-4B77-A1BF-32B43C635409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B0F8E4-C990-4B77-A1BF-32B43C635409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B0F8E4-C990-4B77-A1BF-32B43C635409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
