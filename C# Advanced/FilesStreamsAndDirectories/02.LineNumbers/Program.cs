@@ -33,12 +33,10 @@ namespace _02.LineNumbers
                 }
                 line = ($"Line{lineNumber}: {line} ({letters})({punctoationMark})");
                 result.Add(line);
-                Console.WriteLine(line);
                 lineNumber++;
             }
 
             File.WriteAllLines("output.txt", result);
-
         }
     }
 }
