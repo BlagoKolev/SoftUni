@@ -22,7 +22,7 @@ namespace _04.CopyBinaryFile
                 if (byteRead == 0)
                 {
                     break;
-                }
+                } 
                 writer.Write(buffer, 0, buffer.Length);
             }
 
