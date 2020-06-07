@@ -38,6 +38,7 @@ namespace _03WordCount
             File.WriteAllText("actualResults.txt", sb.ToString());
 
             var areResultLikeExpected = File.ReadLines("actualResults.txt").SequenceEqual(File.ReadLines("expectedResult.txt"));
+
             Console.WriteLine(areResultLikeExpected);
         }
     }
