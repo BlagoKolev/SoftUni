@@ -16,13 +16,11 @@ namespace _06.ZipAndExtract
 
             using (var archive = ZipFile.Open(pathResult, ZipArchiveMode.Create)) //creating an empty .zip file
             {
-                archive.CreateEntryFromFile(fileName, Path.GetFileName(fileName));      //add an wanted file to out .zip archive
+                archive.CreateEntryFromFile(fileName, Path.GetFileName(fileName));      //add an wanted file to our .zip archive
             }
 
-            ZipFile.ExtractToDirectory(pathResult, destinationUnzip);
-
-
-
+            ZipFile.ExtractToDirectory(pathResult, destinationUnzip);  // extract unziped files directly on users Desktop
+                       
         }
     }
 }
