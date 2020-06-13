@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Froggy", "04.Froggy\04.F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ComparingObjects", "05.ComparingObjects\05.ComparingObjects.csproj", "{44F8923D-E7EA-4A45-A86C-5AC40DFFE0BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Equality Logic", "06.Equality Logic\06.Equality Logic.csproj", "{02EC70A3-DC25-4D21-8417-8713C019A374}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.EqualityLogic", "06.EqualityLogic\06.EqualityLogic.csproj", "{EC3B5521-F284-4253-9069-04255BABC19F}"
 EndProject
 Global
@@ -43,10 +41,6 @@ Global
 		{44F8923D-E7EA-4A45-A86C-5AC40DFFE0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44F8923D-E7EA-4A45-A86C-5AC40DFFE0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44F8923D-E7EA-4A45-A86C-5AC40DFFE0BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02EC70A3-DC25-4D21-8417-8713C019A374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02EC70A3-DC25-4D21-8417-8713C019A374}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02EC70A3-DC25-4D21-8417-8713C019A374}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02EC70A3-DC25-4D21-8417-8713C019A374}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC3B5521-F284-4253-9069-04255BABC19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC3B5521-F284-4253-9069-04255BABC19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC3B5521-F284-4253-9069-04255BABC19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
