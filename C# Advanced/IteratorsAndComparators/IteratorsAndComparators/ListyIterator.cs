@@ -7,7 +7,7 @@ namespace IteratorsAndComparators
 {
     class ListyIterator<T>
     {
-        private List<T> myList;
+        private readonly List<T> myList;
         private int pointer = 0;
 
         public ListyIterator(params T[] array)
