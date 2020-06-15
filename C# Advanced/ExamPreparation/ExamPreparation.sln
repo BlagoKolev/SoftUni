@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Guild", "03.Guild\03.Gui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ClubParty", "01.ClubParty\01.ClubParty.csproj", "{CDB586D2-A7D8-4CF8-86F8-BE8F4F08C8AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TronRacers", "02.TronRacers\02.TronRacers.csproj", "{D55DD184-CE14-47D3-99CD-240FE75EDEEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CDB586D2-A7D8-4CF8-86F8-BE8F4F08C8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDB586D2-A7D8-4CF8-86F8-BE8F4F08C8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDB586D2-A7D8-4CF8-86F8-BE8F4F08C8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55DD184-CE14-47D3-99CD-240FE75EDEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55DD184-CE14-47D3-99CD-240FE75EDEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55DD184-CE14-47D3-99CD-240FE75EDEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55DD184-CE14-47D3-99CD-240FE75EDEEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
