@@ -13,7 +13,6 @@ namespace ClubParty
 
             var input = Console.ReadLine().Split();
             var reservations = new Stack<string>(input);
-            var sb = new StringBuilder();
             var sum = 0;
             var hall = new Queue<string>();
             var hallsGuest = new List<int>();
