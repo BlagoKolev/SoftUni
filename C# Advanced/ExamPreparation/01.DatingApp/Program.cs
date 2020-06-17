@@ -28,7 +28,7 @@ namespace DatingApp
                     {
                         break;
                     }
-                    //female = femaleQueue.Peek();
+
                     continue;
                 }
                 if (male <= 0)
@@ -38,7 +38,7 @@ namespace DatingApp
                     {
                         break;
                     }
-                    male = maleStack.Peek();
+                    continue;
                 }
 
                 if (female % 25 == 0)
@@ -50,12 +50,7 @@ namespace DatingApp
                         break;
                     }
                     femaleQueue.Dequeue();
-                    if (!maleStack.Any())
-                    {
-                        break;
-                    }
-                    female = femaleQueue.Peek();
-
+                    continue;
                 }
                 if (male % 25 == 0)
                 {
@@ -66,12 +61,7 @@ namespace DatingApp
                         break;
                     }
                     maleStack.Pop();
-                    if (!maleStack.Any())
-                    {
-                        break;
-                    }
-                    male = maleStack.Peek();
-
+                    continue;
                 }
 
 
@@ -114,7 +104,7 @@ namespace DatingApp
         }
         public static int[] ReadInput(string input)
         {
-            return input.Split(' ',StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            return input.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
         }
     }
 }
