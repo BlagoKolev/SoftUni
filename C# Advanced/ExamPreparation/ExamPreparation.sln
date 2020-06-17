@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DatingApp", "01.DatingAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BookWorm", "02.BookWorm\02.BookWorm.csproj", "{DE3F623B-F0C9-4810-8115-CE0A7089DC9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Rabbits", "03.Rabbits\03.Rabbits.csproj", "{B91D2029-FA5B-4414-9DEF-13E15B050E61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DE3F623B-F0C9-4810-8115-CE0A7089DC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE3F623B-F0C9-4810-8115-CE0A7089DC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE3F623B-F0C9-4810-8115-CE0A7089DC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91D2029-FA5B-4414-9DEF-13E15B050E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91D2029-FA5B-4414-9DEF-13E15B050E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91D2029-FA5B-4414-9DEF-13E15B050E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91D2029-FA5B-4414-9DEF-13E15B050E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
