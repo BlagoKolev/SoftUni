@@ -52,14 +52,17 @@ namespace ExamPreparationAdvanced
                         if (matrix[playerRow, playerCol] == 'F')
                         {
                             IsWinner = true;
-                            break;
                         }
                         else if (matrix[playerRow, playerCol] == 'B')
                         {
                             playerCol--;
                             if (playerCol < 0)
                             {
-                                playerCol = matrix.GetLength(1)-1;
+                                playerCol = matrix.GetLength(1) - 1;
+                            }
+                            if (matrix[playerRow, playerCol] == 'F')
+                            {
+                                IsWinner = true;
                             }
                         }
                         else if (matrix[playerRow, playerCol] == 'T')
@@ -77,7 +80,6 @@ namespace ExamPreparationAdvanced
                         if (matrix[playerRow, playerCol] == 'F')
                         {
                             IsWinner = true;
-                            break;
                         }
                         else if (matrix[playerRow, playerCol] == 'B')
                         {
@@ -86,7 +88,10 @@ namespace ExamPreparationAdvanced
                             {
                                 playerCol = 0;
                             }
-
+                            if (matrix[playerRow, playerCol] == 'F')
+                            {
+                                IsWinner = true;
+                            }
                         }
                         else if (matrix[playerRow, playerCol] == 'T')
                         {
@@ -104,7 +109,6 @@ namespace ExamPreparationAdvanced
                         if (matrix[playerRow, playerCol] == 'F')
                         {
                             IsWinner = true;
-                            break;
                         }
                         else if (matrix[playerRow, playerCol] == 'B')
                         {
@@ -112,6 +116,10 @@ namespace ExamPreparationAdvanced
                             if (playerRow < 0)
                             {
                                 playerRow = matrix.GetLength(0) - 1;
+                            }
+                            if (matrix[playerRow, playerCol] == 'F')
+                            {
+                                IsWinner = true;
                             }
                         }
                         else if (matrix[playerRow, playerCol] == 'T')
@@ -130,7 +138,6 @@ namespace ExamPreparationAdvanced
                         if (matrix[playerRow, playerCol] == 'F')
                         {
                             IsWinner = true;
-                            break;
                         }
                         else if (matrix[playerRow, playerCol] == 'B')
                         {
@@ -138,6 +145,10 @@ namespace ExamPreparationAdvanced
                             if (playerRow == matrix.GetLength(0))
                             {
                                 playerRow = 0;
+                            }
+                            if (matrix[playerRow, playerCol] == 'F')
+                            {
+                                IsWinner = true;
                             }
                         }
                         else if (matrix[playerRow, playerCol] == 'T')
