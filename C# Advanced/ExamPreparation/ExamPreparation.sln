@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ThroneConquering", "02.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Dangerous Floor", "01.Dangerous Floor\01.Dangerous Floor.csproj", "{EA07DA35-B258-4A24-AED3-24596F13718E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Re-Volt", "02.Re-Volt\02.Re-Volt.csproj", "{090798F4-017A-4FA1-B1FE-7FB9C42EA263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EA07DA35-B258-4A24-AED3-24596F13718E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA07DA35-B258-4A24-AED3-24596F13718E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA07DA35-B258-4A24-AED3-24596F13718E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090798F4-017A-4FA1-B1FE-7FB9C42EA263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090798F4-017A-4FA1-B1FE-7FB9C42EA263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090798F4-017A-4FA1-B1FE-7FB9C42EA263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090798F4-017A-4FA1-B1FE-7FB9C42EA263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
