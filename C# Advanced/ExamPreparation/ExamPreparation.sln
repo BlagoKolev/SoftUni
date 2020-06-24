@@ -5,31 +5,33 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Guild", "03.Guild\03.Guild.csproj", "{231DC051-4C5E-45CE-8F5C-03FE7F442090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ClubParty", "01.ClubParty\01.ClubParty.csproj", "{CDB586D2-A7D8-4CF8-86F8-BE8F4F08C8AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ClubParty", "01.ClubParty\01.ClubParty.csproj", "{CDB586D2-A7D8-4CF8-86F8-BE8F4F08C8AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TronRacers", "02.TronRacers\02.TronRacers.csproj", "{D55DD184-CE14-47D3-99CD-240FE75EDEEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.TronRacers", "02.TronRacers\02.TronRacers.csproj", "{D55DD184-CE14-47D3-99CD-240FE75EDEEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Heroes", "03.Heroes\03.Heroes.csproj", "{9A396EC9-9C0E-4FA8-B2AE-B444456AFE69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Heroes", "03.Heroes\03.Heroes.csproj", "{9A396EC9-9C0E-4FA8-B2AE-B444456AFE69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DatingApp", "01.DatingApp\01.DatingApp.csproj", "{55E2A8A9-401E-476F-B3C8-23947E4AC4F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DatingApp", "01.DatingApp\01.DatingApp.csproj", "{55E2A8A9-401E-476F-B3C8-23947E4AC4F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BookWorm", "02.BookWorm\02.BookWorm.csproj", "{DE3F623B-F0C9-4810-8115-CE0A7089DC9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.BookWorm", "02.BookWorm\02.BookWorm.csproj", "{DE3F623B-F0C9-4810-8115-CE0A7089DC9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Rabbits", "03.Rabbits\03.Rabbits.csproj", "{B91D2029-FA5B-4414-9DEF-13E15B050E61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Rabbits", "03.Rabbits\03.Rabbits.csproj", "{B91D2029-FA5B-4414-9DEF-13E15B050E61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SantasPresentFactory", "01.SantasPresentFactory\01.SantasPresentFactory.csproj", "{5A5E5DE9-DA9F-440D-82F7-E3BBBD4FC9D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SantasPresentFactory", "01.SantasPresentFactory\01.SantasPresentFactory.csproj", "{5A5E5DE9-DA9F-440D-82F7-E3BBBD4FC9D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.PresentDelivery", "02.PresentDelivery\02.PresentDelivery.csproj", "{C26BEABA-8A30-42D7-AB49-1DB313F156EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.PresentDelivery", "02.PresentDelivery\02.PresentDelivery.csproj", "{C26BEABA-8A30-42D7-AB49-1DB313F156EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SantasBagOfPresents", "03.SantasBagOfPresents\03.SantasBagOfPresents.csproj", "{1A8535D8-02AA-4AE4-94E2-66CD6D3A44FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.SantasBagOfPresents", "03.SantasBagOfPresents\03.SantasBagOfPresents.csproj", "{1A8535D8-02AA-4AE4-94E2-66CD6D3A44FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CatapultAttack", "01.CatapultAttack\01.CatapultAttack.csproj", "{5BD7378F-48EE-460C-9BDB-6050A0941A86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.CatapultAttack", "01.CatapultAttack\01.CatapultAttack.csproj", "{5BD7378F-48EE-460C-9BDB-6050A0941A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ThroneConquering", "02.ThroneConquering\02.ThroneConquering.csproj", "{35AEDCA5-6AB5-4F52-99C7-0CA3CA4D449A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ThroneConquering", "02.ThroneConquering\02.ThroneConquering.csproj", "{35AEDCA5-6AB5-4F52-99C7-0CA3CA4D449A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Dangerous Floor", "01.Dangerous Floor\01.Dangerous Floor.csproj", "{EA07DA35-B258-4A24-AED3-24596F13718E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Dangerous Floor", "01.Dangerous Floor\01.Dangerous Floor.csproj", "{EA07DA35-B258-4A24-AED3-24596F13718E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Re-Volt", "02.Re-Volt\02.Re-Volt.csproj", "{090798F4-017A-4FA1-B1FE-7FB9C42EA263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Re-Volt", "02.Re-Volt\02.Re-Volt.csproj", "{090798F4-017A-4FA1-B1FE-7FB9C42EA263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guild", "Guild\Guild.csproj", "{43EDCFDB-1C12-461E-847F-6D13CC98EA2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{090798F4-017A-4FA1-B1FE-7FB9C42EA263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{090798F4-017A-4FA1-B1FE-7FB9C42EA263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{090798F4-017A-4FA1-B1FE-7FB9C42EA263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EDCFDB-1C12-461E-847F-6D13CC98EA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EDCFDB-1C12-461E-847F-6D13CC98EA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EDCFDB-1C12-461E-847F-6D13CC98EA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EDCFDB-1C12-461E-847F-6D13CC98EA2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
