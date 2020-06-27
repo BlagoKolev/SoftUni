@@ -129,7 +129,7 @@ namespace TronRacers
             playerRow--;
             if (playerRow < 0)
             {
-                playerCol = matrix.GetLength(0) - 1;
+                playerRow = matrix.GetLength(0) - 1;
             }
             if (matrix[playerRow, playerCol] != '*')
             {
@@ -144,7 +144,7 @@ namespace TronRacers
             playerRow++;
             if (playerRow == matrix.GetLength(0))
             {
-                playerCol = 0;
+                playerRow = 0;
             }
             if (matrix[playerRow, playerCol] != '*')
             {

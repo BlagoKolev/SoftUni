@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubParty", "ClubParty\Club
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TronRacers", "TronRacers\TronRacers.csproj", "{B9D83B04-BDB2-436E-87D6-F0A7A4234388}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heroes", "Heroes\Heroes.csproj", "{F83B137B-7BAC-43DF-A450-455A045DAD6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{B9D83B04-BDB2-436E-87D6-F0A7A4234388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9D83B04-BDB2-436E-87D6-F0A7A4234388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9D83B04-BDB2-436E-87D6-F0A7A4234388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83B137B-7BAC-43DF-A450-455A045DAD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83B137B-7BAC-43DF-A450-455A045DAD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83B137B-7BAC-43DF-A450-455A045DAD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83B137B-7BAC-43DF-A450-455A045DAD6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
