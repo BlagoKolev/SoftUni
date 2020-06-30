@@ -8,7 +8,7 @@ namespace Person
         {
             var person = new Person("name", 50);
             var person2 = new Person("name2", -2);
-            var child = new Child("name2", 12);
+            var child = new Child("name2", 50);
 
             Console.WriteLine(person);
             Console.WriteLine(person2);
