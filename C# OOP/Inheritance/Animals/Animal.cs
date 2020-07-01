@@ -25,7 +25,7 @@ namespace Animals
             get { return this.name; }
             set
             {
-                if (string.IsNullOrWhiteSpace(value))
+                if (string.IsNullOrWhiteSpace(value)||string.IsNullOrEmpty(value))
                 {
                     throw new Exception(ERROR_MESSAGE);
                 }
