@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person - Real Condition by 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed", "NeedForSpeed\NeedForSpeed.csproj", "{54F5A1F9-E2D2-4121-9A99-64CBBE2C2C25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "Restaurant\Restaurant.csproj", "{C91BC1A7-08F5-405B-BA5A-5F608F5C20B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{1909504A-2409-419E-AC42-5F9D41903797}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{54F5A1F9-E2D2-4121-9A99-64CBBE2C2C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54F5A1F9-E2D2-4121-9A99-64CBBE2C2C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54F5A1F9-E2D2-4121-9A99-64CBBE2C2C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C91BC1A7-08F5-405B-BA5A-5F608F5C20B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91BC1A7-08F5-405B-BA5A-5F608F5C20B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91BC1A7-08F5-405B-BA5A-5F608F5C20B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91BC1A7-08F5-405B-BA5A-5F608F5C20B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1909504A-2409-419E-AC42-5F9D41903797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1909504A-2409-419E-AC42-5F9D41903797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1909504A-2409-419E-AC42-5F9D41903797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1909504A-2409-419E-AC42-5F9D41903797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
