@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 
 
-namespace Tests
+namespace Database
 {
     public class DatabaseTests
     {
