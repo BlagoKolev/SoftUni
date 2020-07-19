@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtendedDatabase", "Extende
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtendedDatabase.Tests", "ExtendedDatabase.Tests\ExtendedDatabase.Tests.csproj", "{03551B40-1EDC-47B9-98FB-BC104A31CA63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManager", "CarManager\CarManager.csproj", "{BCBBBB86-A0ED-409B-8200-1F5B40CA0B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManager.Tests", "CarManager.Tests\CarManager.Tests.csproj", "{676095E3-B689-4C93-B2FD-3321B94C8A52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{03551B40-1EDC-47B9-98FB-BC104A31CA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03551B40-1EDC-47B9-98FB-BC104A31CA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03551B40-1EDC-47B9-98FB-BC104A31CA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBBBB86-A0ED-409B-8200-1F5B40CA0B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBBBB86-A0ED-409B-8200-1F5B40CA0B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBBBB86-A0ED-409B-8200-1F5B40CA0B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBBBB86-A0ED-409B-8200-1F5B40CA0B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676095E3-B689-4C93-B2FD-3321B94C8A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676095E3-B689-4C93-B2FD-3321B94C8A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676095E3-B689-4C93-B2FD-3321B94C8A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676095E3-B689-4C93-B2FD-3321B94C8A52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

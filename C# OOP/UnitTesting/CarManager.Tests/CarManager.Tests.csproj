@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExtendedDatabase\ExtendedDatabase.csproj" />
+    <ProjectReference Include="..\CarManager\CarManager.csproj" />
   </ItemGroup>
 
 </Project>

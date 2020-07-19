@@ -1,7 +1,7 @@
 using System;
 using NUnit.Framework;
 
-namespace Tests
+namespace ExtendedDatabase //Tests
 {
     [TestFixture]
     public class ExtendedDatabaseTests
