@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtendedDatabase", "Extende
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtendedDatabase.Tests", "ExtendedDatabase.Tests\ExtendedDatabase.Tests.csproj", "{03551B40-1EDC-47B9-98FB-BC104A31CA63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManager", "CarManager\CarManager.csproj", "{BCBBBB86-A0ED-409B-8200-1F5B40CA0B33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarManager", "CarManager\CarManager.csproj", "{BCBBBB86-A0ED-409B-8200-1F5B40CA0B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarManager.Tests", "CarManager.Tests\CarManager.Tests.csproj", "{676095E3-B689-4C93-B2FD-3321B94C8A52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarManager.Tests", "CarManager.Tests\CarManager.Tests.csproj", "{676095E3-B689-4C93-B2FD-3321B94C8A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightingArena", "FightingArena\FightingArena.csproj", "{49F05C85-9B24-425C-88EC-65E9FCFA26E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightingArena.Tests", "FightingArena.Tests\FightingArena.Tests.csproj", "{BEA67754-0A02-49A8-BFA1-B163F791076A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{676095E3-B689-4C93-B2FD-3321B94C8A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{676095E3-B689-4C93-B2FD-3321B94C8A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{676095E3-B689-4C93-B2FD-3321B94C8A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F05C85-9B24-425C-88EC-65E9FCFA26E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F05C85-9B24-425C-88EC-65E9FCFA26E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F05C85-9B24-425C-88EC-65E9FCFA26E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F05C85-9B24-425C-88EC-65E9FCFA26E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA67754-0A02-49A8-BFA1-B163F791076A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA67754-0A02-49A8-BFA1-B163F791076A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA67754-0A02-49A8-BFA1-B163F791076A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA67754-0A02-49A8-BFA1-B163F791076A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
