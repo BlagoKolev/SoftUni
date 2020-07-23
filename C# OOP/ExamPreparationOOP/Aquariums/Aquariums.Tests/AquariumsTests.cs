@@ -7,11 +7,7 @@
     {
         private Aquarium aquarium;
         private Fish fish;
-        [SetUp]
-        public void SetUp()
-        {
-
-        }
+      
 
         [Test]
         public void CheckFishConstructorWorksProperly()
