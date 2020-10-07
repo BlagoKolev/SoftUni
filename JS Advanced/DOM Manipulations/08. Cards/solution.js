@@ -36,11 +36,11 @@ function solve() {
          let player2Choise = Number(player2Result.textContent);
         
          if (player1Choise > player2Choise) {
-            player1Card.style.borderColor = '2px solid green';
-            player2Card.style.borderColor = '2px solid red';
+            player1Card.style.border = '2px solid green';
+            player2Card.style.border = '2px solid red';
          } else if (player1Choise < player2Choise) {
-            player1Card.style.borderColor = '2px solid red';
-            player2Card.style.borderColor = '2px solid green';
+            player1Card.style.border = '2px solid red';
+            player2Card.style.border = '2px solid green';
          }
 
          resultToShow += `[${player1Choise} vs ${player2Choise}] `;
