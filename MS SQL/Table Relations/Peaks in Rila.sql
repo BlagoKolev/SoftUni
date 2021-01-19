@@ -1,0 +1,4 @@
+SELECT [MountainRange],[PeakName],[Elevation] FROM [Mountains] AS m
+JOIN [Peaks] AS p ON p.MountainId = m.Id
+WHERE [MountainRange] LIKE 'Rila'
+ORDER BY [Elevation] DESC
