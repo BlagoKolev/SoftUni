@@ -1,4 +1,4 @@
-﻿using Git.Models;
+﻿using Git.Models.Users;
 using Git.Services;
 using MyWebServer.Controllers;
 using MyWebServer.Http;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Git.Controllers
 {
-   public class UsersController : Controller
+    public class UsersController : Controller
     {
         private readonly IValidator validator;
         private readonly IUserService userService;
@@ -40,6 +40,21 @@ namespace Git.Controllers
         public HttpResponse Login()
         {
             return this.View();
+        }
+
+        [HttpPost]
+        public HttpResponse Login(LoginFormViewModel model)
+        {
+            var userId = userService.LoginUser(model);
+
+            if (userId == null)
+            {
+                return Error("Wrong username or password.");
+            }
+
+            this.SignIn(userId);
+
+           return this.Redirect("/Repositories.All");
         }
     }
 }

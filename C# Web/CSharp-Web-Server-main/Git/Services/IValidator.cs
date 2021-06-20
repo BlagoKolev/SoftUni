@@ -1,6 +1,6 @@
 ﻿namespace Git.Services
 {
-    using Git.Models;
+    using Git.Models.Users;
     using System.Collections.Generic;
 
     public interface IValidator

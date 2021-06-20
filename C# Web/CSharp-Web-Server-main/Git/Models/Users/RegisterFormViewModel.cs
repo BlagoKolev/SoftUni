@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Git.Models
+namespace Git.Models.Users
 {
     public class RegisterFormViewModel
     {

@@ -1,6 +1,7 @@
 ﻿using Git.Data;
 using Git.Data.Models;
 using Git.Models;
+using Git.Models.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,7 @@ namespace Git.Services
             this.db = db;
             this.passwordHasher = passwordHasher;
         }
+
         public void CreateUser(RegisterFormViewModel model)
         {
             var hashedPassword = passwordHasher.HashPassword(model.Password);
@@ -32,6 +34,16 @@ namespace Git.Services
 
             db.Users.Add(newUser);
             db.SaveChanges();
+        }
+
+       
+        public string LoginUser(LoginFormViewModel model)
+        {
+            var hashedPassword = passwordHasher.HashPassword(model.Password);
+            var user = db.Users
+                .Where(u => u.Username == model.Username && u.Password == hashedPassword)
+                .FirstOrDefault();
+            return user.Id;
         }
     }
 }
