@@ -5,6 +5,7 @@ using MyWebServer.Controllers;
 using MyWebServer.Results.Views;
 using System;
 using System.Threading.Tasks;
+using Git.Services;
 
 namespace Git
 {
@@ -17,9 +18,9 @@ namespace Git
                     .MapControllers())
                 .WithServices(services => services
                     .Add<IViewEngine, CompilationViewEngine>()
-                    //.Add<IValidator, Validator>()
-                    //.Add<IPasswordHasher, PasswordHasher>()
-                    //.Add<IUserService, UserService>()
+                    .Add<IValidator, Validator>()
+                    .Add<IPasswordHasher, PasswordHasher>()
+                    .Add<IUserService, UserService>()
                     //.Add<ICarsService, CarsService>()
                     //.Add<IIssuesService, IssuesService>()
                     .Add<ApplicationDbContext>())
